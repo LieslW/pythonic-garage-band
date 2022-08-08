@@ -16,7 +16,9 @@ class Band():
     def to_list(cls):
         return cls.instances
 
-class Musician():
+class Musician(Band):
+    def __init__(self, name):
+        self.name = name
 
 class Guitarist(Musician):
 
