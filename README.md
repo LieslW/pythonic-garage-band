@@ -4,7 +4,7 @@ Project: Pythonic Garage Band
 Author: Liesl White  
 
 ## Links and Resources
-[Garage Band](pythonic_garage_band/garage_band.py)
+[Garage Band](pythonic_garage_band/band.py)
 [Garage Band Tests](tests/test_garage_band.py)
 
 ## Setup
