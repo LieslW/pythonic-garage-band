@@ -4,18 +4,21 @@ Project: Pythonic Garage Band
 Author: Liesl White  
 
 ## Links and Resources
-back-end server url (when applicable)
-front-end application (when applicable)
+[Garage Band](pythonic_garage_band/garage_band.py)
+[Garage Band Tests](tests/test_garage_band.py)
 
 ## Setup
 .env requirements (where applicable)
-i.e.
 
 ## How to initialize/run your application (where applicable)
-e.g. python main.py
-How to use your library (where applicable)
+
+```python
+
+source .venv/bin/Activate
+pip install -r requirements.txt
+pytest
+
+```
 
 ## Tests
-How do you run tests?
-Any tests of note?
-Describe any tests that you did not complete, skipped, etc
+To run the tests, just type in pytest in your terminal (if not already installed, install pytest via pip).
